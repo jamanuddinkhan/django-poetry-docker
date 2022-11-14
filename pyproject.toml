@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-poetry"
+version = "1.0"
+description = "Containerize application with Django, Poetry, PostgreSQL"
+authors = ["Jaman Uddin Khan <jamanuddin.khan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.3"
+psycopg2-binary = "^2.9.5"
+django-dotenv = "^1.4.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
